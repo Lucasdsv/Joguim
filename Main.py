@@ -60,6 +60,7 @@ while(1):
         if(corp.y>=janela.height-corp.height):
             corp.y-=1
 
+        #teste pra ver quando q muda
 
         cenario.draw()
         janela.draw_text("Tempo " + str(int(time)), 5, 5, 16, (255, 255, 255), "Calibri", True)
